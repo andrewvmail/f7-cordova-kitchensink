@@ -1,0 +1,24 @@
+{
+    "name": "com.example.hello",
+    "displayName": "HelloWorld",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node_modules/.bin/parcel kitchensink/index.html --open",
+        "build": "node_modules/.bin/parcel build kitchensink/index.html -d www/ --public-url ./"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "framework7": "^4.4.6",
+        "framework7-icons": "^2.3.1",
+        "framework7-react": "^4.4.6",
+        "prop-types": "15.x",
+        "react": "16.x",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.3"
+    }
+}
